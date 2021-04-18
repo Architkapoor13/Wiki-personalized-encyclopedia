@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+
+
+
+
+.edit-textarea
+{
+    height:500px;
+    width:80%;
+    resize:none;
+}
+
+.dne
+{
+    color:red;
+}
+
+.form-title
+{
+    padding:10px;
+    color: black;
+    border: 1px solid #696969;
+    width:600px;
+    margin-bottom: 50px;
+    background-color: #FAFAFA;
+}
+
+label
+{
+    color: #505050;
+    width:100px;
+    display: inline-block;
+}
+
+
+
+td, th
+{
+    vertical-align: top;
+    margin-top: 30px;
+}
+table
+{
+    margin-top:30px;
+}
+
+.form-content
+{
+    width:900px;
+    height: 500px;
+    resize: none;
+    background-color: #FAFAFA;
+    color: black;
+    padding:10px;
+}
+.form-contnet:focus
+{
+    background-color:white;
+    outline: none;
+}
+
+.entry-content
+{
+
+    padding:10px;
+    height: 600px;
+    width:100%;
+    background-color: #FAFAFA;
+    padding-left: 15px;
+}
+ h3
+ {
+    color:red;
+ }
+
+.dne-gif
+{
+    background-color: white;
+    text-align:center;
+}
+
+.dne-div2
+{
+    background-color:white;
+    text-align:center;
+}

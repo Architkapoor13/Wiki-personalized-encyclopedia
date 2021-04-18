@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block body %}
+    <h1>The pages you searched for:</h1>
+    <div class="entry-content" style="padding-left:5px;">
+    <ul type="circle">
+    {% for page in spages %}
+
+        <li><a href="/wiki/{{ page }}">{{ page }}</a></li>
+
+    {% empty %}
+        <li type="none" style="color:red">No pages found!</li>
+
+    {% endfor %}
+    </ul>
+    </div>
+{% endblock %}

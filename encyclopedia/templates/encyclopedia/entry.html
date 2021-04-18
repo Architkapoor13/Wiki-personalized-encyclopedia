@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title|capfirst }}
+{% endblock %}
+
+{% block body %}
+    <div class="entry-content">
+
+        {{ page|safe }}
+
+    </div>
+
+    <div>
+        <form action="{% url 'edit' %}" method="post" class="edit-btn">
+        {% csrf_token %}
+        <input type="hidden" value="{{ title }}" name="title">
+        <button type="submit" class="btn"><img src="https://img.icons8.com/fluent/48/000000/edit.png"/></button>
+    </form>
+    </div>
+{% endblock %}
